@@ -99,9 +99,12 @@ html {
   height: 4px;
   background-color: var(--pressed-state-color);
   left: 0;
-  bottom:0;
+  bottom:-1px;
   border-radius: 2px;
   margin: 0;
+}
+.header-link.current {
+  color: var(--pressed-state-color);
 }
 
 .header-link:hover,
@@ -213,7 +216,7 @@ html {
   display: inline-block;
   min-width: 169px;
   text-align: center;
-  border: 1px solid transparent var(--primary-brand-color);
+  border:none;
   margin-top: 0;
   margin-bottom: 0;
   transition: background var(--transition-cubic);
@@ -483,7 +486,7 @@ html {
   display: inline-block;
   min-width: 68px;
   text-align: center;
-  border: 1px solid transparent var(--primary-brand-color);
+  border: 1px solid transparent ;
   transition: box-shadow var(--transition-cubic),
     border var(--transition-cubic);
 }
@@ -493,13 +496,13 @@ html {
   color: var(--active-text-color);
   box-shadow: 0px 3px 1px rgba(0, 0, 0, 0.1), 0px 2px 1px rgba(0, 0, 0, 0.08),
     0px 2px 2px rgba(0, 0, 0, 0.12);
-  border: 1px solid transparent var(--pressed-state-color);
+  border: 1px solid transparent ;
 }
 .caption-btn-first:hover,
 .caption--btn-first:focus {
   box-shadow: 0px 3px 1px rgba(0, 0, 0, 0.1), 0px 2px 1px rgba(0, 0, 0, 0.08),
     0px 2px 2px rgba(0, 0, 0, 0.12);
-  border: 1px solid transparent var(--pressed-state-color);
+  border: 1px solid transparent ;
 }
 
 .content-list {
