@@ -420,10 +420,30 @@
          </button>
          <p class="modal-title">Leave your contacts and we will call you back</p>
          <form  class="modal-name">
-          <input type="text" class="modal-imput" name="user-name" placeholder="Name">
-          <input type="text" class="modal-imput" name="user-phone" placeholder="Phone">
-          <input type="text" class="modal-imput" name="user-email" placeholder="Email">
-          <input type="text" class="modal-imput" name="user-comment" placeholder="Comment">
+          <label><span class="label-modal-name">Name</span>
+            <span class="imput-wrap">
+             <input type="text" class="modal-imput" name="user-name" placeholder="" required/>
+            <svg class="imput-icon" widht="8" height="8">
+             <use href="./images/icons.svg#icon-close-black-18dp-2-1" ></use>
+            </svg></span>
+            </label>
+          <label> <span class="label-modal">Phone </span>
+<span class="imput-wrap">
+            <input type="tel" class="modal-imput" name="user-phone" placeholder="" required>
+          <svg class="imput-icon" widht="8" height="8">
+             <use href="./images/icons.svg#icon-close-black-18dp-2-1" ></use>
+            </svg></span>
+          </label>
+          <label> <span class="label-modal">Email</span> 
+<span class="imput-wrap">
+            <input type="email" class="modal-imput" name="user-email" placeholder="" required>
+          <svg class="imput-icon" widht="8" height="8">
+             <use href="./images/icons.svg#icon-close-black-18dp-2-1" ></use>
+            </svg></span>
+          </label>
+          <label> <span class="label-modal">Comment</span>
+            <input type="text" class="modal-imput" name="user-comment" placeholder="Text iput" required></label>
+         
           <button type="submit">Send</button>
          </form>
       </div>
