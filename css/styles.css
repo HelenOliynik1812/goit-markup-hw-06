@@ -894,3 +894,35 @@ letter-spacing: 0.04em;
   border: 1px solid red;
   fill: var(--dark-navy-blue);
 }
+.imput-checkbox:checked + .check-text::before{
+  width: 30px;
+  height: 30px;
+  background-color: orangered;
+  border: none;
+  background-image: url(../images/icons.svg#icon-check);
+  background-repeat: no-repeat;
+  background-position: center;
+}
+.check-text{
+  display: flex;
+  font-weight: 400;
+font-size: 12px;
+line-height: 1.33;
+/* identical to box height, or 133% */
+letter-spacing: 0.04em;
+color: #757575;
+align-items: center;
+
+
+
+}
+.check-text::before{
+  content: "";
+  width: 16px;
+  height: 16px;
+  border: 2px solid black;
+  display: block;
+  border-radius: 3px;
+  margin-right: 8px;
+
+}
