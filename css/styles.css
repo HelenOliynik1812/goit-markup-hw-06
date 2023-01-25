@@ -879,4 +879,5 @@ padding-left: 16px;
    transform: translate(-50%, -50%);  
   position: absolute;
   border: 1px solid red;
+  fill: var(--dark-navy-blue);
 }
