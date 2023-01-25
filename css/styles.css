@@ -923,6 +923,22 @@ align-items: center;
   margin-right: 8px;
 
 }*/
+.check-text span{
+  width: 16px;
+  height: 16px;
+  border: 2px solid black;
+  display: block;
+  border-radius: 3px;
+  margin-right: 8px;
+display: flex;
+align-items: center;
+justify-content: center;
+ fill: transparent;
+}
 .check-icon{
-  
+  fill: transparent;
+  border: 1px solid red;
+}
+.check-icon:hover,.check-icon:focus {
+  fill:#31d0aa
 }
