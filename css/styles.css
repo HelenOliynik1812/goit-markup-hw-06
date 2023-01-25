@@ -811,10 +811,12 @@ margin-bottom: 13px;
 margin-bottom: 8px;
 font-size: 12px;
 outline-color: none;
+margin-top: 4px;
 padding-left: 38px;}
 
 .modal-imput:hover,.modal-imput:focus{
   border-color:var(--primary-brand-color) ;
+  outline: none;
   }
  .modal-imput:hover,.modal-imput:focus +.imput-icon{
     fill: var(--primary-brand-color);
