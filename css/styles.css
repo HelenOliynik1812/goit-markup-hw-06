@@ -887,8 +887,7 @@ letter-spacing: 0.04em;
   height: 18px;
   left: 16px;
     bottom: 50%;
-    
-   transform: translate(50%,-50%);  
+    transform: translate(50%,-50%);  
   position: absolute;
   border: 1px solid red;
   fill: var(--dark-navy-blue);
