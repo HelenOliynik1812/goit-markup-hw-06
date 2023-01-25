@@ -817,7 +817,7 @@ padding-left: 16px;
   border-color:var(--primary-brand-color) ;
   }
  .modal-imput:focus+.imput-icon{
-    font: var(--primary-brand-color);
+    fill: var(--primary-brand-color);
   }
 
 .modal-imput::placeholder{
