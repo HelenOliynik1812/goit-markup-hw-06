@@ -816,7 +816,7 @@ padding-left: 16px;
 .modal-imput:hover,.modal-imput:focus{
   border-color:var(--primary-brand-color) ;
   }
- .modal-imput:focus+.imput-icon{
+ .modal-imput:focus +.imput-icon{
     fill: var(--primary-brand-color);
   }
 
