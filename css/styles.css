@@ -807,9 +807,11 @@ margin-bottom: 13px;
   border-radius: 4px;
   background-color: transparent;
   border: 1px solid rgba(33, 33, 33, 0.2);
+  margin: 0;
 margin-bottom: 8px;
 font-size: 12px;
-outline-color: none;}
+outline-color: none;
+padding-left: 38px;}
 
 .modal-imput:hover,.modal-imput:focus{
   border-color:var(--primary-brand-color) ;
@@ -864,6 +866,7 @@ color: var(--subtle-text);
   padding: 16px;
   padding-top: 8px;
   resize: none;
+  font-size: 12px;
 }
 .modal-coment::placeholder{
   font-weight: 400;
@@ -882,11 +885,10 @@ letter-spacing: 0.04em;
   position: absolute;
   width: 18px;
   height: 18px;
-  margin-left: 19px;
-  
   left: 16px;
-  bottom: 50%;
-   transform: translate(-50%, -50%);  
+    bottom: 50%;
+    
+   transform: translate(50%,-50%);  
   position: absolute;
   border: 1px solid red;
   fill: var(--dark-navy-blue);
