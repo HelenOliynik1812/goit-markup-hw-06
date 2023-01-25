@@ -935,10 +935,8 @@ align-items: center;
 justify-content: center;
  fill: transparent;
 }
-.check-icon{
-  fill: transparent;
-  border: 1px solid red;
-}
-.check-icon:hover,.check-icon:focus {
-  fill:#31d0aa
+.imput-checkbox:checked +.check-text span{
+  background-color: #4d5ae5;
+border: none;
+fill: #f4f4fd;
 }
