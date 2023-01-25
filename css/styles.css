@@ -816,7 +816,7 @@ padding-left: 16px;
 .modal-imput:hover,.modal-imput:focus{
   border-color:var(--primary-brand-color) ;
   }
-  .modal-imput:hover,.modal-imput:focus+.imput-icon{
+ .modal-imput:focus+.imput-icon{
     font: var(--primary-brand-color);
   }
 
@@ -864,6 +864,7 @@ margin-bottom: 8px;
 font-size: 12px;
 color: rgba(117, 117, 117, 0.5);
 padding-left: 16px;
+
 }
 
 .text-imput:hover,.text-imput:focus{
