@@ -736,6 +736,52 @@ html {
 .footer-icon-icon {
   fill: var(--active-text-color);
 }
+.subscribe {
+}
+.subscribe-form {
+}
+.subscribe-label {
+}
+.subscribe-text {
+}
+.subscribe-span {
+}
+.subscribe-imput {
+}
+.subscribe-btn {
+  position: relative;
+  width: 165px;
+  height: 40px;
+  background-color: var(--primary-brand-color);
+  border-radius: 4px;
+  border: transparent;
+  color: var(--active-text-color);
+  margin-left:24px;
+  font-weight: 500;
+font-size: 16px;
+line-height: 1.5px;
+/* identical to box height, or 150% */
+align-items: center;
+text-align: center;
+letter-spacing: 0.04em;
+
+
+}
+.subscribe-name-btn{
+  font-weight: 500;}
+
+.subscribe-icon{
+  position: absolute;
+  border: 1px solid red;
+  background-color: brown;
+  left: 24px;
+  display: inline-block;
+   top: 50%;
+ left: 50%;
+  transform: translate( 50%, -50%);
+margin-right: 24px;
+
+}
 /*-----modal----*/
 .backdrop {
   position: fixed;
@@ -885,12 +931,10 @@ letter-spacing: 0.04em;
   border-color:var(--primary-brand-color) ;
 }
 .imput-icon {
-  position: absolute;
   width: 18px;
   height: 18px;
- 
-    bottom: 50%;
-    transform: translate(50%,-50%);  
+  bottom: 50%;
+  transform: translate(50%,-50%);  
   position: absolute;
   border: 1px solid red;
   fill: var(--dark-navy-blue);
