@@ -759,7 +759,7 @@ html {
   transform: translate(-50%, -50%);
   width: 408px;
   height: 584px;
-  background: #fcfcfc; ;
+  background: #fcfcfc;
   padding: 24px;
 }
 .modal-close-btn {
@@ -797,12 +797,8 @@ text-align: center;
 letter-spacing: 0.02em;
 /* NAVY BLUE */
 color:var(--hero-background);
-margin:0 ;
 margin-top: 24px;
-margin-bottom: 14px;
-}
-.modal-name{
-  margin: 0;
+margin-bottom: 13px;
 }
 
 .modal-imput{
@@ -815,8 +811,7 @@ margin-bottom: 14px;
 margin-bottom: 8px;
 font-size: 12px;
 outline-color: none;
-padding: 0;
-padding-right: 4px;
+
 padding-left: 38px;}
 
 .modal-imput:hover,.modal-imput:focus{
@@ -838,13 +833,8 @@ padding-left: 38px;}
 .modal-imput:not(:placeholder-shown):not(:focus):invalid {
   background-color: rgba(121, 15, 92, 0.24);
 }*/
-.modal-label{
-  margin: 0;
-  display: block;
-
-}
-.modal-name-span {
-display: block;
+.label-modal-name{
+display: inline-block;
 margin-bottom: 4px;
 font-weight: 400;
 font-size: 12px;
@@ -854,11 +844,8 @@ letter-spacing: 0.04em;
 color:var(--subtle-text);
 
 }
-
-
-
-.modal-span{
-  display: block;
+.label-modal{
+  display: inline-block;
   margin-bottom: 4px;
   font-weight: 400;
 font-size: 12px;
@@ -870,7 +857,6 @@ color: var(--subtle-text);
 }
 .imput-wrap{
   position: relative;
-  margin: 0 ;
 }
 .modal-coment{
   width: 100%;
@@ -879,8 +865,8 @@ color: var(--subtle-text);
   border-radius: 4px;
   background-color: transparent;
   outline: none;
-  margin-bottom:16px ;
-
+  padding: 16px;
+  padding-top: 8px;
   resize: none;
   font-size: 12px;
 color: var(--primary-text-color);
@@ -906,7 +892,7 @@ letter-spacing: 0.04em;
     bottom: 50%;
     transform: translate(50%,-50%);  
   position: absolute;
-
+  border: 1px solid red;
   fill: var(--dark-navy-blue);
 
 }
@@ -939,7 +925,7 @@ align-items: center;
   margin-right: 8px;
 
 }*/
-.checkbox{
+.checkbox{margin-top: 16px;
 margin-bottom: 24px;}
 
 .check-text{
@@ -958,6 +944,7 @@ display: flex;
   height: 16px;
   border: 1.25px solid var(--hero-background);
 border-radius: 2px;
+ 
    margin-right: 8px;
 display: flex;
 align-items: center;
@@ -972,6 +959,7 @@ border: none;
 fill: #f4f4fd;
 }
 .modal-btn{
+
   width: 169px;
 height: 56px;
 background: #4D5AE5;
@@ -989,18 +977,17 @@ display: flex;
 align-items: center;
 justify-content: center;
 margin: 0 auto;
-
+margin-top: 24px;
 margin-bottom: 24px;
-padding: 0;
 }
 
 .check-text-privsci{
   color: var(--primary-brand-color);
-
+  font-family: 'Roboto';
+font-style: normal;
 font-weight: 400;
 font-size: 12px;
-line-height: 1.33;
+line-height: 16px;
 /* identical to box height, or 133% */
 letter-spacing: 0.04em;
-text-decoration-line: underline;
 }
