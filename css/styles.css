@@ -857,6 +857,7 @@ color: var(--subtle-text);
 }
 .imput-wrap{
   position: relative;
+  margin: 0 ;
 }
 .modal-coment{
   width: 100%;
@@ -979,4 +980,15 @@ justify-content: center;
 margin: 0 auto;
 margin-top: 24px;
 margin-bottom: 24px;
+}
+
+.check-text-privsci{
+  color: var(--primary-brand-color);
+
+font-weight: 400;
+font-size: 12px;
+line-height: 1.33;
+/* identical to box height, or 133% */
+letter-spacing: 0.04em;
+text-decoration-line: underline;
 }
