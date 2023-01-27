@@ -865,13 +865,9 @@ html {
   fill: black;
   transition: background var(--transition-cubic), fill var(--transition-cubic);
 }
-.modal-close-icon .modal-close-btn:hover,
+.modal-close-icon.modal-close-btn:hover,
 .modal-close-btn:focus {
   background: var(--pressed-state-color);
-}
-.modal-close-btn:hover,
-.modal-close-btn:focus + .modal-close-icon {
-  fill: var(--active-text-color);
 }
 
 .modal-title {
