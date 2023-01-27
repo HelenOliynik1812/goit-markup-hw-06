@@ -912,7 +912,7 @@ transition: border var(--transition-cubic);
   outline: none;
   }
  .modal-imput:hover,.modal-imput:focus + .imput-icon{
-fill: var(--primary-brand-color);
+fill:var(--active-text-color);;
   }
 
 .modal-imput::placeholder{
@@ -994,10 +994,6 @@ letter-spacing: 0.04em;
     fill: var(--dark-navy-blue);
 transition: fill var(--transition-cubic),
 }
-.mput-icon:hover,.mput-icon:focus{
-  fill:var(--active-text-color);
-}
-
 /*.imput-checkbox:checked + .check-text::before{
   width: 30px;
   height: 30px;
