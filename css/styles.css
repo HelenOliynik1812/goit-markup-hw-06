@@ -866,7 +866,7 @@ fill: var(--active-text-color);
   border: 1px solid rgba(0, 0, 0, 0.1);
   padding: 0;
   background:var(--accent-color);
-  fill: #000000;
+  fill:var(--default-bg-color);
       margin-left: auto;
 
   transition: background var(--transition-cubic);
