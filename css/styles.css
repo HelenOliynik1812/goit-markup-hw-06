@@ -778,7 +778,9 @@ letter-spacing: 0.04em;
 background-color: transparent;
 color: rgba(255, 255, 255, 0.6);
 border: 1px solid rgba(255, 255, 255, 0.3);
-filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.15));
+}
+.subscribe-imput :hover,.subscribe-imput :focus{
+ filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.15));
 }
 .subscribe-div-btn{
 
@@ -792,7 +794,6 @@ filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.15));
    border: transparent;
   color: var(--active-text-color);
   background-color: var(--primary-brand-color);
-
 cursor: pointer;
  margin-bottom: 0;
  font-weight: 500;
@@ -804,10 +805,10 @@ align-items: center;
 text-align: left;
 border-radius: 4px;
 letter-spacing: 0.04em;
-
 color:var(--active-text-color);
 padding-left: 24px;
 padding-right: 24px;
+transition: background-color var(--transition-cubic);
 }
 .subscribe-icon{
   position: absolute;
@@ -818,6 +819,9 @@ margin: 0 auto;
 margin-left: 16px;
 
 
+}
+.subscribe-btn:hover,.subscribe-btn:focus{
+  background-color: var(--pressed-state-color);
 }
 /*-----modal----*/
 .backdrop {
