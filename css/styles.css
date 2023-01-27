@@ -994,7 +994,7 @@ letter-spacing: 0.04em;
     fill: var(--dark-navy-blue);
 transition: fill var(--transition-cubic),
 }
-.mput-icon{
+.mput-icon:hover,.mput-icon:focus{
   fill:var(--active-text-color);
 }
 
