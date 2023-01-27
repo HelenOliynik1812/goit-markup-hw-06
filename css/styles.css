@@ -780,7 +780,7 @@ margin: 0;
    border: transparent;
   color: var(--active-text-color);
   background-color: var(--primary-brand-color);
-  border-radius: 4px;   
+
 cursor: pointer;
  margin-bottom: 0;
  font-weight: 500;
@@ -790,27 +790,22 @@ line-height: 1.5;
 display: flex;
 align-items: center;
 text-align: left;
-
+border-radius: 4px;
 letter-spacing: 0.04em;
 
 color:var(--active-text-color);
-
-}
-.subscribe-name-btn{
-  position: relative;
-
 padding-left: 24px;
+padding-right: 24px;
 }
-
 .subscribe-icon{
   position: absolute;
   border: 1px solid red;
   background-color: brown;
   top: 50%;
- left: 50%;
+ left: 54%;
   transform: translate( 50%, -50%);
 margin: 0 auto;
-margin-left: 24px;
+margin-left: 16px;
 
 
 }
