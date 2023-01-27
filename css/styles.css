@@ -739,47 +739,79 @@ html {
 .subscribe {
 }
 .subscribe-form {
+ display: flex;
+  margin: 0;
 }
-.subscribe-label {
+.subscribe-div{margin-left: 80px;
+
 }
+
+.subscribe-label {}
+  
 .subscribe-text {
+  font-weight: 500;
+font-size: 16px;
+line-height: 1.5px;
+/* identical to box height, or 150% */
+letter-spacing: 0.02em;
+color: var(--active-text-color);
+margin: 0;
+
+
 }
 .subscribe-span {
+
 }
 .subscribe-imput {
+  margin-top: 16px;
+  width: 264px;
+  height: 40px;
+  border-radius: 4px;
+}
+.subscribe-div-btn{
+
+ display: flex;
+  align-items: flex-end;
 }
 .subscribe-btn {
   position: relative;
   width: 165px;
   height: 40px;
-  background-color: var(--primary-brand-color);
-  border-radius: 4px;
-  border: transparent;
+   border: transparent;
   color: var(--active-text-color);
-  margin-left:24px;
-  font-weight: 500;
+  background-color: var(--primary-brand-color);
+  border-radius: 4px;   
+cursor: pointer;
+ margin-bottom: 0;
+ font-weight: 500;
 font-size: 16px;
-line-height: 1.5px;
+line-height: 1.5;
 /* identical to box height, or 150% */
+display: flex;
 align-items: center;
-text-align: center;
+text-align: left;
+
 letter-spacing: 0.04em;
 
+color:var(--active-text-color);
 
 }
 .subscribe-name-btn{
-  font-weight: 500;}
+  position: relative;
+
+padding-left: 24px;
+}
 
 .subscribe-icon{
   position: absolute;
   border: 1px solid red;
   background-color: brown;
-  left: 24px;
-  display: inline-block;
-   top: 50%;
+  top: 50%;
  left: 50%;
   transform: translate( 50%, -50%);
-margin-right: 24px;
+margin: 0 auto;
+margin-left: 24px;
+
 
 }
 /*-----modal----*/
@@ -807,6 +839,7 @@ margin-right: 24px;
   height: 584px;
   background: #fcfcfc;
   padding: 24px;
+  
 }
 .modal-close-btn {
   /*position: absolute;
@@ -841,7 +874,8 @@ line-height: 1.5;
 /* identical to box height, or 150% */
 text-align: center;
 letter-spacing: 0.02em;
-/* NAVY BLUE */
+/* NAVY 
+LUE */
 color:var(--hero-background);
 margin-top: 24px;
 margin-bottom: 13px;
