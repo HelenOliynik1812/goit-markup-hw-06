@@ -866,7 +866,7 @@ fill: var(--active-text-color);
   border: 1px solid rgba(0, 0, 0, 0.1);
   padding: 0;
   background:var(--accent-color);
-  fill:var(--active-text-color);
+  fill:var(--default-bg-color);
       margin-left: auto;
 
   transition: background var(--transition-cubic);
@@ -874,8 +874,6 @@ fill: var(--active-text-color);
 .modal-close-btn:hover,
 .modal-close-btn:focus {
   background: var(--pressed-state-color);
-  fill:var(--default-bg-color);
-
 }
 .modal-title{
   font-style: normal;
@@ -914,7 +912,7 @@ transition: border var(--transition-cubic);
   outline: none;
   }
  .modal-imput:hover,.modal-imput:focus + .imput-icon{
-fill:var(--active-text-color);
+fill: var(--primary-brand-color);
   }
 
 .modal-imput::placeholder{
@@ -929,7 +927,7 @@ fill:var(--active-text-color);
   background-color: rgba(121, 15, 92, 0.24);
 }*/
 .modal-name-span {
-display: block;
+display: inline-block;
 margin-bottom: 4px;
 font-weight: 400;
 font-size: 12px;
@@ -940,7 +938,7 @@ color:var(--subtle-text);
 
 }
 .modal-span{
-  display:block;
+  display: inline-block;
   margin-bottom: 4px;
   font-weight: 400;
 font-size: 12px;
@@ -996,6 +994,8 @@ letter-spacing: 0.04em;
     fill: var(--dark-navy-blue);
 transition: fill var(--transition-cubic),
 }
+
+
 /*.imput-checkbox:checked + .check-text::before{
   width: 30px;
   height: 30px;
