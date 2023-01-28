@@ -735,11 +735,10 @@ html {
 }
 .subscribe-form {
   display: flex;
-   margin-left: 80px;
+  margin-left: 80px;
 }
 .subscribe-div {
 }
-
 .subscribe-label {
 }
 
@@ -755,10 +754,8 @@ html {
 .subscribe-span {
 }
 .subscribe-imput {
- 
   width: 264px;
   height: 40px;
- 
   padding-left: 16px;
   padding-top: 8px;
   padding-bottom: 8px;
@@ -777,13 +774,12 @@ html {
 .subscribe-imput :hover,
 .subscribe-imput :focus {
   filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.15));
-
 }
 .subscribe-div-btn {
   display: flex;
   align-items: center;
-gap: 16p;
-margin: 0;
+  gap: 16p;
+  margin: 0;
 }
 .subscribe-btn {
   position: relative;
@@ -856,7 +852,7 @@ margin: 0;
   justify-content: center;
   align-items: center;
   cursor: pointer;
- 
+
   width: 24px;
   height: 24px;
   border-radius: 50%;
@@ -867,7 +863,8 @@ margin: 0;
   fill: black;
   transition: background var(--transition-cubic), fill var(--transition-cubic);
 }
-.modal-close-btn:hover,.modal-close-btn:focus {
+.modal-close-btn:hover,
+.modal-close-btn:focus {
   background: var(--pressed-state-color);
 }
 .modal-close-btn:hover,
@@ -889,7 +886,8 @@ LUE */
   margin-top: 24px;
   margin-bottom: 13px;
 }
-.modal-label{}
+.modal-label {
+}
 
 .modal-imput {
   width: 100%;
@@ -903,15 +901,15 @@ LUE */
   outline-color: none;
   padding-left: 38px;
   color: var(--primary-text-color);
-  transition: border var(--transition-cubic),
-  fill var(--dark-navy-blue);
+  transition: border var(--transition-cubic), fill var(--dark-navy-blue);
 }
 .imput-icon {
   width: 18px;
   height: 18px;
   bottom: 50%;
   transform: translate(50%, -50%);
-  position: absolute;  }
+  position: absolute;
+}
 
 .modal-imput:hover,
 .modal-imput:focus {
@@ -920,11 +918,9 @@ LUE */
 }
 .modal-imput:hover + .imput-icon {
   fill: var(--primary-brand-color);
- 
 }
 .modal-imput:focus + .imput-icon {
   fill: var(--primary-brand-color);
- 
 }
 
 .modal-imput::placeholder {
@@ -940,7 +936,6 @@ LUE */
   background-color: rgba(121, 15, 92, 0.24);
 }*/
 .modal-name-span {
-
   margin-bottom: 4px;
   font-weight: 400;
   font-size: 12px;
@@ -950,7 +945,6 @@ LUE */
   color: var(--subtle-text);
 }
 .modal-span {
-
   margin-bottom: 4px;
   font-weight: 400;
   font-size: 12px;
@@ -981,8 +975,7 @@ LUE */
   /* identical to box height, or 133% */
   letter-spacing: 0.04em;
   color: rgba(117, 117, 117, 0.5);
-   transition: border var(--transition-cubic);
- 
+  transition: border var(--transition-cubic);
 }
 .modal-coment::placeholder {
   font-weight: 400;
@@ -1076,13 +1069,12 @@ align-items: center;
   margin: 0 auto;
   margin-top: 24px;
   margin-bottom: 24px;
-   transition: background var(--transition-cubic);
+  transition: background var(--transition-cubic);
 }
-.modal-btn:hover,.modal-btn:focus {
+.modal-btn:hover,
+.modal-btn:focus {
   background: var(--pressed-state-color);
-
 }
-
 
 .check-text-privsci {
   color: var(--primary-brand-color);
@@ -1094,4 +1086,3 @@ align-items: center;
   /* identical to box height, or 133% */
   letter-spacing: 0.04em;
 }
-
