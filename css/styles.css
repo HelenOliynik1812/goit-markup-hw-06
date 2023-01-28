@@ -733,14 +733,11 @@ html {
 .footer-icon-icon {
   fill: var(--active-text-color);
 }
-.subscribe {
-}
 .subscribe-form {
   display: flex;
-  margin: 0;
+   margin-left: 80px;
 }
 .subscribe-div {
-  margin-left: 80px;
 }
 
 .subscribe-label {
@@ -758,13 +755,15 @@ html {
 .subscribe-span {
 }
 .subscribe-imput {
-  margin-top: 16px;
+ 
   width: 264px;
   height: 40px;
-  border-radius: 4px;
+ 
   padding-left: 16px;
   padding-top: 8px;
   padding-bottom: 8px;
+  margin-top: 16px;
+   border-radius: 4px;
   font-weight: 400;
   font-size: 12px;
   line-height: 2;
@@ -781,7 +780,9 @@ html {
 }
 .subscribe-div-btn {
   display: flex;
-  align-items: flex-end;
+  align-items: center;
+gap: 16p;
+margin: 0;
 }
 .subscribe-btn {
   position: relative;
@@ -910,7 +911,7 @@ LUE */
   border-color: var(--primary-brand-color);
   outline: none;
 }
-.modal-imput:hover,.modal-imput:focus + .imput-icon {
+.modal-imput:hover,.modal-imput:focus +.imput-icon {
   fill: var(--primary-brand-color);
  
 }
