@@ -893,7 +893,7 @@ LUE */
   height: 40px;
   border-radius: 4px;
   background-color: transparent;
-  border-color: 1px solid rgba(33, 33, 33, 0.2);
+  border: 1px solid rgba(33, 33, 33, 0.2);
   margin: 0;
   margin-bottom: 8px;
   font-size: 12px;
@@ -901,17 +901,7 @@ LUE */
   padding-left: 38px;
   color: var(--primary-text-color);
   transition: border var(--transition-cubic);
-   fill: var(--dark-navy-blue);
-  
-}
-.imput-icon {
-  width: 18px;
-  height: 18px;
-  bottom: 50%;
-  transform: translate(50%, -50%);
-  position: absolute;
- 
-  transition: fill var(--transition-cubic);
+  fill: var(--dark-navy-blue);
 }
 
 .modal-imput:hover,
@@ -930,7 +920,15 @@ LUE */
   color: rgba(117, 117, 117, 0.5);
 }
 
-
+.imput-icon {
+  width: 18px;
+  height: 18px;
+  bottom: 50%;
+  transform: translate(50%, -50%);
+  position: absolute;
+  fill: var(--dark-navy-blue);
+  transition: fill var(--transition-cubic);
+}
 /*
 .modal-imput:not(:placeholder-shown):not(:focus):valid { 
   background-color:rgba(121, 195, 224, 0.2);
