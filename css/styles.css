@@ -938,7 +938,7 @@ LUE */
   background-color: rgba(121, 15, 92, 0.24);
 }*/
 .modal-name-span {
-  display: inline-block;
+  display: block;
   margin-bottom: 4px;
   font-weight: 400;
   font-size: 12px;
@@ -948,7 +948,7 @@ LUE */
   color: var(--subtle-text);
 }
 .modal-span {
-  display: inline-block;
+  display: block;
   margin-bottom: 4px;
   font-weight: 400;
   font-size: 12px;
