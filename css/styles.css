@@ -902,18 +902,32 @@ LUE */
   padding-left: 38px;
   color: var(--primary-text-color);
   transition: border var(--transition-cubic);
-  fill: var(--dark-navy-blue);
+  
 }
-
+.imput-icon {
+  width: 18px;
+  height: 18px;
+  bottom: 50%;
+  transform: translate(50%, -50%);
+    transition: fill var(--transition-cubic);
+fill: var(--dark-navy-blue);
+}
 
 .modal-imput:hover,
 .modal-imput:focus {
   border-color: var(--primary-brand-color);
   outline: none;
 }
+/*
 .modal-imput:hover,.modal-imput:focus +.imput-icon {
   fill: var(--primary-brand-color);
  
+}*/
+
+.modal-imput:hover .imput-icon ,
+.modal-imput:focus .imput-icon  {fill: #4d5ae5;
+
+
 }
 
 .modal-imput::placeholder {
@@ -921,13 +935,7 @@ LUE */
   color: rgba(117, 117, 117, 0.5);
 }
 
-.imput-icon {
-  width: 18px;
-  height: 18px;
-  bottom: 50%;
-  transform: translate(50%, -50%);
-  position: absolute;
-}
+
 /*
 .modal-imput:not(:placeholder-shown):not(:focus):valid { 
   background-color:rgba(121, 195, 224, 0.2);
