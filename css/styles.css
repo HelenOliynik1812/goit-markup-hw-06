@@ -904,15 +904,13 @@ LUE */
   fill: var(--dark-navy-blue);
 }
 
-.modal-imput:hover,
-.modal-imput:focus {
+.modal-imput:hover.modal-imput,
+.modal-imput:focus.modal-imput {
   border-color: var(--primary-brand-color);
   outline: none;
 }
-.modal-imput:hover,
-.modal-imput:focus + .imput-icon {
+.imput-icon {
   fill: var(--primary-brand-color);
- 
 }
 
 .modal-imput::placeholder {
