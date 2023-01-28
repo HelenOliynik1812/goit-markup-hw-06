@@ -912,6 +912,7 @@ LUE */
 .modal-imput:hover,
 .modal-imput:focus + .imput-icon {
   fill: var(--primary-brand-color);
+   border-color: var(--primary-brand-color);
 }
 
 .modal-imput::placeholder {
