@@ -904,8 +904,8 @@ LUE */
   fill: var(--dark-navy-blue);
 }
 
-.modal-imput:hover.modal-imput,
-.modal-imput:focus.modal-imput {
+.modal-imput:hover.imput-icon,
+.modal-imput:focus.imput-icon {
   border-color: var(--primary-brand-color);
   outline: none;
 }
