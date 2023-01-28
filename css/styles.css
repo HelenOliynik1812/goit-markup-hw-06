@@ -888,6 +888,7 @@ LUE */
   margin-top: 24px;
   margin-bottom: 13px;
 }
+.modal-label{}
 
 .modal-imput {
   width: 100%;
@@ -909,7 +910,8 @@ LUE */
   height: 18px;
   bottom: 50%;
   transform: translate(50%, -50%);
-  position: absolute;}
+  position: absolute; 
+border: 1px solid purple }
 
 .modal-imput:hover,
 .modal-imput:focus {
@@ -938,7 +940,7 @@ LUE */
   background-color: rgba(121, 15, 92, 0.24);
 }*/
 .modal-name-span {
-  display: block;
+
   margin-bottom: 4px;
   font-weight: 400;
   font-size: 12px;
@@ -948,7 +950,7 @@ LUE */
   color: var(--subtle-text);
 }
 .modal-span {
-  display: block;
+
   margin-bottom: 4px;
   font-weight: 400;
   font-size: 12px;
