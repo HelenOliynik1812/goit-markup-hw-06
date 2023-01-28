@@ -930,13 +930,6 @@ LUE */
   color: rgba(117, 117, 117, 0.5);
 }
 
-.imput-icon {
-  width: 18px;
-  height: 18px;
-  bottom: 50%;
-  transform: translate(50%, -50%);
-  position: absolute;
-}
 /*
 .modal-imput:not(:placeholder-shown):not(:focus):valid { 
   background-color:rgba(121, 195, 224, 0.2);
@@ -998,15 +991,6 @@ LUE */
 .modal-coment:hover,
 .modal-coment:focus {
   border-color: var(--primary-brand-color);
-}
-.imput-icon {
-  width: 18px;
-  height: 18px;
-  bottom: 50%;
-  transform: translate(50%, -50%);
-  position: absolute;
-  fill: var(--dark-navy-blue);
-  transition: fill var(--transition-cubic);
 }
 
 /*.imput-checkbox:checked + .check-text::before{
