@@ -901,7 +901,17 @@ LUE */
   padding-left: 38px;
   color: var(--primary-text-color);
   transition: border var(--transition-cubic);
+   fill: var(--dark-navy-blue);
   
+}
+.imput-icon {
+  width: 18px;
+  height: 18px;
+  bottom: 50%;
+  transform: translate(50%, -50%);
+  position: absolute;
+ 
+  transition: fill var(--transition-cubic);
 }
 
 .modal-imput:hover,
@@ -920,15 +930,7 @@ LUE */
   color: rgba(117, 117, 117, 0.5);
 }
 
-.imput-icon {
-  width: 18px;
-  height: 18px;
-  bottom: 50%;
-  transform: translate(50%, -50%);
-  position: absolute;
-  fill: var(--dark-navy-blue);
-  transition: fill var(--transition-cubic);
-}
+
 /*
 .modal-imput:not(:placeholder-shown):not(:focus):valid { 
   background-color:rgba(121, 195, 224, 0.2);
