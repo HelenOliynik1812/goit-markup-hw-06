@@ -893,7 +893,7 @@ LUE */
   height: 40px;
   border-radius: 4px;
   background-color: transparent;
-  border: 1px solid rgba(33, 33, 33, 0.2);
+  border-color: 1px solid rgba(33, 33, 33, 0.2);
   margin: 0;
   margin-bottom: 8px;
   font-size: 12px;
@@ -912,7 +912,7 @@ LUE */
 .modal-imput:hover,
 .modal-imput:focus + .imput-icon {
   fill: var(--primary-brand-color);
-   border-color: var(--primary-brand-color);
+ 
 }
 
 .modal-imput::placeholder {
