@@ -904,13 +904,15 @@ LUE */
   fill: var(--dark-navy-blue);
 }
 
-.modal-imput:hover.imput-icon,
-.modal-imput:focus.imput-icon {
+
+.modal-imput:hover,
+.modal-imput:focus {
   border-color: var(--primary-brand-color);
   outline: none;
 }
-.imput-icon {
+.modal-imput:hover,.modal-imput:focus + .imput-icon {
   fill: var(--primary-brand-color);
+ 
 }
 
 .modal-imput::placeholder {
@@ -924,8 +926,6 @@ LUE */
   bottom: 50%;
   transform: translate(50%, -50%);
   position: absolute;
-  fill: var(--dark-navy-blue);
-  transition: fill var(--transition-cubic);
 }
 /*
 .modal-imput:not(:placeholder-shown):not(:focus):valid { 
