@@ -763,7 +763,7 @@ html {
   padding-top: 8px;
   padding-bottom: 8px;
   margin-top: 16px;
-  
+  border-radius: 4px;
   font-weight: 400;
   font-size: 12px;
   line-height: 2;
@@ -777,6 +777,7 @@ html {
 .subscribe-imput :hover,
 .subscribe-imput :focus {
   filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.15));
+
 }
 .subscribe-div-btn {
   display: flex;
@@ -855,7 +856,7 @@ margin: 0;
   justify-content: center;
   align-items: center;
   cursor: pointer;
-  border: 1px solid red;
+ 
   width: 24px;
   height: 24px;
   border-radius: 50%;
@@ -902,16 +903,15 @@ LUE */
   outline-color: none;
   padding-left: 38px;
   color: var(--primary-text-color);
-  transition: border var(--transition-cubic);
-  fill: var(--dark-navy-blue);
+  transition: border var(--transition-cubic),
+  fill var(--dark-navy-blue);
 }
 .imput-icon {
   width: 18px;
   height: 18px;
   bottom: 50%;
   transform: translate(50%, -50%);
-  position: absolute; 
-border: 1px solid purple }
+  position: absolute;  }
 
 .modal-imput:hover,
 .modal-imput:focus {
@@ -981,6 +981,8 @@ border: 1px solid purple }
   /* identical to box height, or 133% */
   letter-spacing: 0.04em;
   color: rgba(117, 117, 117, 0.5);
+   transition: border var(--transition-cubic);
+ 
 }
 .modal-coment::placeholder {
   font-weight: 400;
@@ -1074,7 +1076,13 @@ align-items: center;
   margin: 0 auto;
   margin-top: 24px;
   margin-bottom: 24px;
+   transition: background var(--transition-cubic);
 }
+.modal-btn:hover,.modal-btn:focus {
+  background: var(--pressed-state-color);
+
+}
+
 
 .check-text-privsci {
   color: var(--primary-brand-color);
@@ -1086,3 +1094,4 @@ align-items: center;
   /* identical to box height, or 133% */
   letter-spacing: 0.04em;
 }
+
